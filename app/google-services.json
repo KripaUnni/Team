@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "994814508540",
+    "project_id": "team-d056c",
+    "storage_bucket": "team-d056c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:994814508540:android:aa73b61acff9fc68e6c679",
+        "android_client_info": {
+          "package_name": "avantech.smartapps.team"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "994814508540-l7cclguomu3rs9o8e7nm2eqs03n8tpgc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN4oTZz4e-qtfR4jGy0_uDFTBwkdu5_jk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "994814508540-l7cclguomu3rs9o8e7nm2eqs03n8tpgc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

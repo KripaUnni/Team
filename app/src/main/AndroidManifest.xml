@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="avantech.smartapps.team">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Team"
+        tools:targetApi="31">
+        <activity
+            android:name=".admin.fragments.subTasks.EditSubTasksActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/activity_custom" />
+        <activity
+            android:name=".admin.fragments.subTasks.ViewSubTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.fragments.tasks.EditTasksActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/activity_custom" />
+        <activity
+            android:name=".admin.fragments.subTasks.AddSubTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.fragments.tasks.AddTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.fragments.tasks.ViewTasksActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.fragments.projects.EditProjectsActivity"
+            android:exported="false"
+            android:launchMode="singleInstance"
+            android:theme="@style/activity_custom" />
+        <activity android:name=".common.ExitActivity" />
+        <activity
+            android:name=".staff.StaffHomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.AdminHomeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/Theme.Team.NoActionBar" />
+        <activity
+            android:name=".admin.fragments.projects.AddProjectsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".admin.fragments.employees.AddEmployeesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".common.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".common.NewUserActivity"
+            android:exported="false"
+            android:theme="@style/activity_custom" />
+        <activity
+            android:name=".common.LoginActivity"
+            android:exported="false"
+            android:theme="@style/activity_custom" />
+        <activity
+            android:name=".common.SplashActivity"
+            android:exported="true"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
